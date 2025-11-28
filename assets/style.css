@@ -29,14 +29,14 @@ a:hover{text-decoration:underline}
 /* Header */
 .site-header{background:transparent;padding:14px 0;color:var(--text)}
 .site-header .container{padding:0}
-.site-header-inner{display:flex;align-items:center;gap:20px}
+.site-header-inner{display:flex;align-items:center;gap:20px;justify-content:center;position:relative}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .brand-logo{font-size:20px}
 .brand-title{font-weight:800;font-size:18px;letter-spacing:0.2px}
 .main-nav{margin-left:10px;display:flex;gap:14px;align-items:center}
 .main-nav .nav-item{padding:8px 10px;border-radius:6px;color:var(--muted)}
 .main-nav .nav-item:hover{background:rgba(255,255,255,0.02);color:var(--text)}
-.header-actions{margin-left:auto;display:flex;align-items:center;gap:10px}
+.header-actions{margin-left:0;display:flex;align-items:center;gap:10px;position:absolute;right:18px;top:50%;transform:translateY(-50%)}
 .search{background:transparent;border:1px solid rgba(255,255,255,0.04);padding:8px 10px;border-radius:8px;color:var(--text);min-width:180px}
 .menu-toggle{display:none;background:transparent;border:0;color:var(--text);font-size:20px}
 .site-header-bottom{height:1px}
@@ -75,7 +75,8 @@ hr{border:0;border-bottom:1px solid rgba(255,255,255,0.04);margin:20px 0}
 
 /* Footer */
 .site-footer{margin-top:36px;padding:14px 0;color:var(--muted)}
-.site-footer-inner{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.site-footer-inner{display:flex;justify-content:center;align-items:center;gap:12px}
+.site-footer .footer-right{display:flex;gap:12px}
 
 /* TOC */
 #page-toc ul{list-style:none;padding-left:0;margin:0}
