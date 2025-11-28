@@ -1,16 +1,35 @@
-title: "My CTF Writeups"
-description: "Exploit journeys, reversing notes, pwn breakdowns."
+title: "TheKrizzler — CTF Writeups"
+description: "CTF writeups, exploitation notes, reversing, and pwn walkthroughs."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://thekrizzler.github.io"
+author: "TheKrizzler"
+language: "en-US"
 markdown: kramdown
 highlighter: rouge
 
-# Site navigation links
+# Navigation links used in `_includes/header.html`
 nav:
   - name: Home
     link: /
   - name: Writeups
     link: /#writeups
+  - name: Tags
+    link: /tags
   - name: About
     link: /about
 
-# Show future posts? (turn on if you prepare drafts)
+# Social (optional)
+social:
+  github: "https://github.com/TheKrizzler"
+
+# Build settings
 future: false
+
+# Appearance presets
+theme_settings:
+  accent: "#06b6d4" # cyan-ish accent
+  bg: "#0b1220"
+  text: "#cdd6e3"
+
+# Plugins (if you later enable them locally)
+plugins: []

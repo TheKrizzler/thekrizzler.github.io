@@ -1,4 +1,13 @@
-<footer>
-  <hr>
-  <p>© {{ site.time | date: "%Y" }} — Built for hacking.</p>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="footer-left">
+      <p>© {{ site.time | date: "%Y" }} {{ site.author }}. Built for hacking.</p>
+    </div>
+    <div class="footer-right">
+      {% if site.social.github %}
+        <a href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a>
+      {% endif %}
+      <a href="/about">About</a>
+    </div>
+  </div>
 </footer>

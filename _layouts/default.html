@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-<body>
+<body class="theme-root">
   {% include header.html %}
-  <main class="container">
-    {{ content }}
+
+  <main class="site-main container">
+    <div class="content-area">
+      {{ content }}
+    </div>
+    <aside class="sidebar" aria-label="Sidebar">
+      <div class="card">
+        <h3>About</h3>
+        <p>A collection of CTF writeups and exploitation notes by <strong>{{ site.author }}</strong>.</p>
+      </div>
+      <div class="card" id="toc-card">
+        <h3>Contents</h3>
+        <nav id="page-toc">No table of contents</nav>
+      </div>
+    </aside>
   </main>
+
   {% include footer.html %}
+
+  <script src="/assets/site.js" defer></script>
 </body>
 </html>
