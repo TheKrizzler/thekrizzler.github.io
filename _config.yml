@@ -1,7 +1,6 @@
 title: "My CTF Writeups"
 description: "Exploit journeys, reversing notes, pwn breakdowns."
 markdown: kramdown
-theme: none
 highlighter: rouge
 
 # Site navigation links
