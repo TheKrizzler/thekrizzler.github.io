@@ -33,3 +33,9 @@ theme_settings:
 
 # Plugins (if you later enable them locally)
 plugins: []
+
+# kramdown options to control Markdown rendering
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true

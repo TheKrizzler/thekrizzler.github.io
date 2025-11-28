@@ -1,19 +1,21 @@
 <header class="site-header">
-  <div class="site-header-inner">
-    <a class="brand" href="/">
-      <span class="brand-logo">🔐</span>
-      <span class="brand-title">{{ site.title }}</span>
-    </a>
+  <div class="container">
+    <div class="site-header-inner">
+      <a class="brand" href="/">
+        <span class="brand-logo">🔐</span>
+        <span class="brand-title">{{ site.title }}</span>
+      </a>
 
-    <nav class="main-nav" aria-label="Primary">
-      {% for item in site.nav %}
-        <a class="nav-item" href="{{ item.link }}">{{ item.name }}</a>
-      {% endfor %}
-    </nav>
+      <nav class="main-nav" aria-label="Primary">
+        {% for item in site.nav %}
+          <a class="nav-item" href="{{ item.link }}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
 
-    <div class="header-actions">
-      <input class="search" placeholder="Search writeups (soon)" aria-label="Search">
-      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <div class="header-actions">
+        <input class="search" placeholder="Search writeups (soon)" aria-label="Search">
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </div>
     </div>
   </div>
   <div class="site-header-bottom"></div>

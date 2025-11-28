@@ -28,10 +28,11 @@ a:hover{text-decoration:underline}
 
 /* Header */
 .site-header{background:transparent;padding:14px 0;color:var(--text)}
+.site-header .container{padding:0}
 .site-header-inner{display:flex;align-items:center;gap:20px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .brand-logo{font-size:20px}
-.brand-title{font-weight:700;font-size:18px}
+.brand-title{font-weight:800;font-size:18px;letter-spacing:0.2px}
 .main-nav{margin-left:10px;display:flex;gap:14px;align-items:center}
 .main-nav .nav-item{padding:8px 10px;border-radius:6px;color:var(--muted)}
 .main-nav .nav-item:hover{background:rgba(255,255,255,0.02);color:var(--text)}
@@ -43,10 +44,19 @@ a:hover{text-decoration:underline}
 /* Main layout */
 .site-main{display:grid;grid-template-columns:1fr 300px;gap:28px;align-items:start}
 .content-area{padding:18px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border-radius:var(--radius)}
+
+/* Hero styles */
+.hero{text-align:center;padding:28px 18px}
+.hero h1{font-size:34px;margin:0 0 6px 0;letter-spacing:-0.5px}
+.hero p{color:var(--muted);margin:0}
 .sidebar{position:relative}
 .card{background:var(--card);padding:14px;border-radius:10px;margin-bottom:14px;color:var(--muted)}
 
 .post-title{margin:0 0 6px 0;font-size:28px}
+
+/* Ensure paragraphs and explicit breaks render as expected */
+.post-content p{margin:0 0 1em 0;white-space:normal}
+.post-content br{line-height:1.6}
 .post-meta{display:flex;flex-wrap:wrap;gap:12px;color:var(--muted);font-size:13px}
 .post-meta .post-date{margin-left:auto;color:var(--muted)}
 
