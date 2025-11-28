@@ -1,2 +1,17 @@
-title: "My Site"
-description: "Just testing Jekyll on GitHub Pages"
+title: "My CTF Writeups"
+description: "Exploit journeys, reversing notes, pwn breakdowns."
+markdown: kramdown
+theme: none
+highlighter: rouge
+
+# Site navigation links
+nav:
+  - name: Home
+    link: /
+  - name: Writeups
+    link: /#writeups
+  - name: About
+    link: /about
+
+# Show future posts? (turn on if you prepare drafts)
+future: false

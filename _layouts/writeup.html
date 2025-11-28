@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="post-meta">
+    <span><strong>Category:</strong> {{ page.category }}</span> |
+    <span><strong>Difficulty:</strong> {{ page.difficulty }}</span> |
+    <span><strong>Tags:</strong> {{ page.tags | join: ", " }}</span>
+    <span style="float:right;">{{ page.date | date: "%b %d, %Y" }}</span>
+  </div>
+  <hr>
+  {{ content }}
+
+  <hr>
+  <a href="/">← Back to index</a>
+</article>
