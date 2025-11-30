@@ -1,8 +1,8 @@
-title: "TheKrizzler — CTF Writeups"
+title: "Kriz — CTF Writeups"
 description: "CTF writeups, exploitation notes, reversing, and pwn walkthroughs."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thekrizzler.github.io"
-author: "TheKrizzler"
+author: "Kriz"
 language: "en-US"
 keywords: "CTF, writeup, exploitation, reversing, pwn, security, hacking"
 markdown: kramdown
