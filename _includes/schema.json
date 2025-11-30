@@ -1,0 +1,23 @@
+<!-- JSON-LD Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.layout == 'writeup' or page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
+  "name": "{{ page.title | default: site.title }}",
+  "description": "{{ page.description | default: site.description }}",
+  "url": "{{ page.url | absolute_url }}",
+  {% if page.layout == 'writeup' or page.layout == 'post' %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author }}"
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}"
+  {% else %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author }}"
+  }
+  {% endif %}
+}
+</script>
