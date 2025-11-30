@@ -2,14 +2,10 @@
 layout: default
 title: Home
 ---
----
-layout: default
-title: Home
----
 
 <section class="hero card">
 	<h1>Welcome — CTF Writeups & Exploits</h1>
-	<p>Practical writeups for reversing, pwn, web, and crypto problems.</p>
+	<p>Practical writeups for reversing, pwn, and crypto problems.</p>
 </section>
 
 <section id="writeups">
