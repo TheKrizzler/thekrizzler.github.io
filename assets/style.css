@@ -84,7 +84,7 @@ hr{border:0;border-bottom:1px solid rgba(255,255,255,0.04);margin:20px 0}
 #page-toc a{color:var(--muted);font-size:14px}
 
 /* Images */
-img{max-width:100%;height:auto;border-radius:8px;margin:12px 0}
+img{max-width:100%;height:auto;border-radius:8px;margin:12px 0;display:block;max-height:600px;object-fit:contain}
 
 /* Responsive */
 @media (max-width:900px){
