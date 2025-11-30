@@ -2,10 +2,6 @@
 layout: default
 title: Home
 ---
----
-layout: default
-title: Home
----
 
 <section class="hero card">
 	<h1>Welcome — CTF Writeups & Exploits</h1>
